@@ -15,8 +15,8 @@ Check out the live demo of the To-do List Application: [To-do List Application D
 ## Screenshots
 Here are a few screenshots of the application:
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
+![Screenshot 1](Screenshot(210).png)
+![Screenshot 2](Screenshot(211).png)
 
 ## Installation
 To run this application locally, follow these steps:
