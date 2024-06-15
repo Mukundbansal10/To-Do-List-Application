@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
@@ -10,6 +10,7 @@ body {
     background-image: url('https://wallpapers.com/images/hd/abstract-soft-lines-white-screen-fb9bbohx0315k4d1.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .shine {
@@ -152,7 +153,7 @@ ul {
 
 .To-do {
     width: 500px;
-    height: 350px;
+    height: auto;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     /* background: rgb(223, 225, 235); */
@@ -277,6 +278,21 @@ ul {
   }
   #list-container li.checked::before{
     background-image: url('check.png');
+  }
+  #list-container li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  #list-container li span:hover{
+    background: #edeef0;
   }
 
   
